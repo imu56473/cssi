@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<title>Star wars Photos</title>
+
+<h1>Star wars Photos</h1>
+
+<h2>Photos of star wars</h2>
+<ul>
+  <li><img src="http://bestanimations.com/Sci-Fi/StarWars/yoda-sat-wars-animated-gif-3.gif" alt="yota"></li>
+  <li><img src="https://68.media.tumblr.com/2cc6aa3c598af8ebecedcb1f000fcdb0/tumblr_nvrercBJo11uvcoq0o1_400.gif" alt="Fight!!!!"></li>
+  <li><img src="https://media.giphy.com/media/v3VI6q6wgNz68/giphy.gif" alt="evil lord"></li>
+</ul>

@@ -1,0 +1,28 @@
+<title>Imran Khan's Profile</title>
+<body Bgcolor= "dark blue">
+<h1>Imran khan</h1>
+
+<img src="https://media.giphy.com/media/9fbYYzdf6BbQA/giphy.gif" width="1000" height="1000" alt="Photo of Imran
+Levine">
+
+<h2>Summary</h2>
+<p>I live in NYC i love to play games and travle around the world.</p>
+
+<h2>Hometown</h2>
+Astoria, New York
+
+<h2>University</h2>
+medgar evers collage
+
+<h2>Other Profiles</h2>
+<ul>
+  <li><a href="">Google+</a></li>
+  <li><a href="https://www.facebook.com/profile.php?id=100004991220373">Facebook</a></li>
+</ul>
+
+<h2>My Favorite Movies</h2>
+<ol>
+  <li>hell boy</li>
+  <li>007</li>
+  <li>pokemon</li>
+</ol>
