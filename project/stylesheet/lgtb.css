@@ -1,0 +1,50 @@
+
+<link rel="templates" href="/app_project/lgbt.html"/>
+<link rel="templates" href="/app_project/lgbt_results.html"/>
+<link rel="templates" href="/app_project/profilepage.html"/>
+body {
+  font-family: "proxima-nova-n9", proxima-nova, monospace;
+  font-style: normal;
+  font-weight: 900;
+  background-image: url(/);
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #6f8299;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: blue gray;
+    float: left;
+    border: 1px solid;
+    outline: 1px;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #aa02ff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    background-size: auto;
+    background-color:	# #040494;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #000000;
+    border-top: bold;
+}

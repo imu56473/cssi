@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/stylesheet/lgtb.css"/>
+</head>
+<body>
+
+<p>Relate and Share experiences with a growing, loving community.</p>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Inbox')">Inbox</button>
+  <button class="tablinks" onclick="openCity(event, 'Notifications')">Notification</button>
+  <form method="post" action ="">
+    <input type="text" name="textsearch">
+    <input type="submit" value="OK">
+  </form>
+</div>
+
+<div id="Inbox" class="tabcontent">
+  <h3><a href="/Inbox">Inbox</a></h3>
+</div>
+
+<div id="Notifications" class="tabcontent">
+  <h3><a href="/Notifications">Notifications</a></h3>
+</div>
+
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+
+function myFunction() {
+    var search = document.createElement("Input", "list");
+    search.setAttribute("type", "search");
+    document.body.appendChild(x);
+}
+
+}
+</script>
+
+</body>
+</html>
